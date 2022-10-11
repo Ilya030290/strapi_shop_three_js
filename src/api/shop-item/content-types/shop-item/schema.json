@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_items",
+  "info": {
+    "singularName": "shop-item",
+    "pluralName": "shop-items",
+    "displayName": "Shop Item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
