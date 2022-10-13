@@ -4,7 +4,8 @@
   "info": {
     "singularName": "shop-item",
     "pluralName": "shop-items",
-    "displayName": "Shop Item"
+    "displayName": "Shop Item",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,10 @@
       "required": true
     },
     "category": {
+      "type": "string",
+      "required": true
+    },
+    "modelName": {
       "type": "string",
       "required": true
     }
