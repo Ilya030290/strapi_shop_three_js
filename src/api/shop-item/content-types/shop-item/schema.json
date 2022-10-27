@@ -35,6 +35,10 @@
     "modelName": {
       "type": "string",
       "required": true
+    },
+    "brand": {
+      "type": "string",
+      "required": true
     }
   }
 }
